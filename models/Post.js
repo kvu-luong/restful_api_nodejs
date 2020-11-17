@@ -13,5 +13,5 @@ const PostSchema = mongoose.Schema({
 		default: Date.now
 	}
 })
-
+PostSchema.set('collection', 'actor');
 module.exports = mongoose.model('Post', PostSchema);

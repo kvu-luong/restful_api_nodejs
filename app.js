@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 //Import Routes
 const postsRoute = require('./routes/posts.js');
 
-app.use('/posts', postsRoute);
+app.use('/post', postsRoute);
 // ROUTES
 app.get('/', (req, res) => {
 	res.send('We are on home');

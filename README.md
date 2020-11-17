@@ -1,4 +1,8 @@
 Start
+get: get info
+post: create data
+delete: delete database
+patch: update databae
 - npm init -y : Generate file package json
 - npm install express nodemon: express => create server; nodemon => run project continuously
 - npm install mongoose : install database mongoose;
