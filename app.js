@@ -3,12 +3,12 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 require('dotenv/config');
-//Middlewares
-app.use('/posts', () =>{
-	console.log('The middlewre running');
-})
 
 
+//Import Routes
+const postsRoute = require('./routes/posts.js');
+
+app.use('/posts', postsRoute);
 // ROUTES
 app.get('/', (req, res) => {
 	res.send('We are on home');
