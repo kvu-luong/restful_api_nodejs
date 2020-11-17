@@ -8,3 +8,5 @@ mlab: https://cloud.mongodb.com/
 tenlavodich@gmail.com/Thiẻn92
 
 - npm install dotenv: call specific data in file .env
+
+- npm install body-parser: to support json method post
